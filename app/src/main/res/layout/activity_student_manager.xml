@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentManagerActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/ten_lop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="3"/>
+
+        <Spinner
+            android:id="@+id/spnClasses"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/ten_sv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:hint="@string/nguyen_van_a"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/ngay_sinh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="3"/>
+
+        <EditText
+            android:hint="@string/dd_mm_yyyy"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@null"
+        android:layout_margin="10dp"
+        android:background="#E4A058"
+        android:text="@string/them_sinh_vien" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#3385FF"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/danh_sach_sinh_vien"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

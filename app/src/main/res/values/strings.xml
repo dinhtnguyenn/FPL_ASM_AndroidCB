@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FPL_ASM_AndroidCB</string>
+    <string name="them_lop">Thêm lớp</string>
+    <string name="xem_danh_sach_lop">Xem danh sách lớp</string>
+    <string name="quan_ly_sinh_vien">QUẢN LÝ SINH VIÊN</string>
+    <string name="them_lop_moi">THÊM LỚP MỚI</string>
+    <string name="nhap_ma_lop">Nhập mã lớp</string>
+    <string name="nhap_ten_lop">Nhập tên lớp</string>
+    <string name="xoa_trang">Xóa trắng</string>
+    <string name="stt">STT</string>
+    <string name="ma_lop">Mã lớp</string>
+    <string name="ten_lop">Tên lớp</string>
+    <string name="ten_sv">Tên SV</string>
+    <string name="ngay_sinh">Ngày sinh</string>
+    <string name="dd_mm_yyyy">dd/MM/yyyy</string>
+    <string name="nguyen_van_a">Nguyễn Văn A</string>
+    <string name="them_sinh_vien">Thêm sinh viên</string>
+    <string name="danh_sach_sinh_vien">DANH SÁCH SINH VIÊN</string>
+    <string name="quan_ly_danh_sach_lop">DANH SÁCH LỚP</string>
+</resources>
