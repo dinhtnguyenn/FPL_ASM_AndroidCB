@@ -55,8 +55,6 @@ public class QuanLySinhVienSQLite extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("drop table if exists " + TABLE_LOP);
-        onCreate(db);
-
         db.execSQL("drop table if exists " + TABLE_SINHVIEN);
         onCreate(db);
     }
